@@ -1,0 +1,50 @@
+	<div class="onboard-lets-start onboard-section">
+		<div class="onboard-question">
+			<span class="firstname"></span>, to create your program we need to know:
+		</div>
+
+<!--
+		<div class="form-group group-font-sm">
+			<div>
+				<label for="onboard-height" class="onboard-label">What's your height in cm?</label>
+				<input id="onboard-height" name="onboard-height" class="onboard-textbox-xs" min="54" max="300" type="number" required />
+			</div>
+
+			<div>
+				<label for="onboard-currentweight" class="onboard-label">What's your current weight in kg?</label>
+				<input id="onboard-currentweight" name="onboard-currentweight" class="onboard-textbox-xs" min="1" max="500" type="number" required />
+			</div>
+
+			<div>
+				<label for="onboard-goalweight" class="onboard-label">What would your goal weight be?</label>
+				<input id="onboard-goalweight" name="onboard-goalweight" class="onboard-textbox-xs" min="1" max="500" type="number" required />
+			</div>			
+		</div>
+-->
+		<div class="form-group">
+			<div class="row container">
+				<div class="col-sm-10 measurement-row-lft"><label for="onboard-height" class="onboard-label">What's your height in cm?</label></div>
+				<div class="col-sm-2 measurement-row-rgt"><input id="onboard-height" name="onboard-height" class="onboard-textbox-xs" min="54" max="300" type="number" required /></div>
+			</div>
+
+			<div class="row container">
+				<div class="col-sm-6 measurement-row-lft"><label for="onboard-currentweight" class="onboard-label">What's your current weight in kg?</label></div>
+				<div class="col-sm-6 measurement-row-rgt"><input id="onboard-currentweight" name="onboard-currentweight" class="onboard-textbox-xs" min="1" max="500" type="number" required /></div>
+			</div>
+
+			<div class="row container">
+				<div class="col-sm-6 measurement-row-lft"><label for="onboard-goalweight" class="onboard-label">What would your goal weight be?</label></div>
+				<div class="col-sm-6 measurement-row-rgt"><input id="onboard-goalweight" name="onboard-goalweight" class="onboard-textbox-xs onboard-textbox-xs-lst" min="1" max="500" type="number" required /></div>
+			</div>
+		</div>
+
+		<div class="error-container">
+			<label id="onboard-measurements-error" class="error" for="onboard-measurements" style="display:none;"></label>
+		</div>
+	
+	</div>
+
+	<div class="row onboard-nav-row">
+		<button type="button" class="btn onboarding-button-back" back-step>Back</button>
+		<button type="button" class="btn onboarding-button-red" next-step>Next</button>
+	</div>

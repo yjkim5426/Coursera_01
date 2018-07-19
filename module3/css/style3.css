@@ -1,0 +1,37 @@
+h1 {
+    text-align: center;
+}
+div {
+    /* background-color: grey;
+    border: 1px solid black; */
+    text-align: left;
+    vertical-align: middle;
+    padding: 10px;
+}
+#text-box {
+    text-align: center;
+    vertical-align: middle;
+}
+
+input {
+    vertical-align: middle;
+    width: 50px;
+}
+
+/* Small device */
+@media (max-width: 767px) {
+    #text-box {
+        text-align: left;
+    }
+}
+
+/* Medium device */
+@media (min-width: 992px) and (max-width:1199px) {
+
+}
+
+/* Large device */
+@media (min-width: 1200px) {
+    
+}
+
