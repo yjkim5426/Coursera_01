@@ -1,0 +1,17 @@
+#header-nav {
+    background-color: lightblue;
+}
+#main-content h1 {
+    margin-bottom: 50px;
+}
+
+.menu-section {
+    background-color: skyblue;
+    height: 1000px;
+}
+.menu-section-title {
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
